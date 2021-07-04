@@ -98,7 +98,7 @@ module.exports = {
         text: '技术',
         link: '/pages/229bb9/',   //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
-          { text: '文档', link: '/pages/77cec8/' },
+          { text: '如何只展示当前地图视区的定位mark', link: '/pages/map/' },
         ],
       },
       {
