@@ -92,6 +92,7 @@ module.exports = {
         link: '/pages/3502c9/',   //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           { text: 'html', link: '/pages/80dd0e/' },
+          { text: 'css', link: '/pages/c462de/' },
         ],
       },
       {
