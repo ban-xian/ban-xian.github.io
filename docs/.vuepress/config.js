@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Jie's blog",
-  description: 'Just playing around',
+  title: "Jie's Blog",
+  description: '以人为镜 可明得失 以码为镜 可通逻辑',
   theme: 'vuepress-theme-vdoing', // 博客主题
   markdown: {
     lineNumbers: true, // 代码行号
@@ -42,7 +42,7 @@ module.exports = {
       // 博主信息，显示在首页侧边栏
       avatar: '/imgs/touxiang.jpg',
       name: '抬手一个div',
-      slogan: '前端界切图仔',
+      slogan: '前端切图仔',
     },
     author: {
       // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
