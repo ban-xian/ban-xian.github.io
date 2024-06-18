@@ -13,7 +13,8 @@ module.exports = {
       'meta',
       {
         name: 'keywords',
-        content: '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
+        content:
+          '前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
       },
     ],
     ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
@@ -82,14 +83,12 @@ module.exports = {
       // 有二级导航时
       {
         text: '前端',
-        link: '/pages/5b6606/',   //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        items: [
-          { text: '前端基础', link: '/pages/570ec7/' },
-        ],
+        link: '/pages/5b6606/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        items: [{ text: '前端基础', link: '/pages/570ec7/' }],
       },
       {
         text: '页面',
-        link: '/pages/3502c9/',   //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: '/pages/3502c9/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           { text: 'html', link: '/pages/80dd0e/' },
           { text: 'css', link: '/pages/c462de/' },
@@ -97,25 +96,24 @@ module.exports = {
       },
       {
         text: '技术',
-        link: '/pages/229bb9/',   //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: '/pages/229bb9/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           { text: '如何只展示当前地图视区的定位mark', link: '/pages/map/' },
+          { text: 'npm私有仓库搭建', link: '/pages/npm/' },
         ],
       },
       {
         text: '更多',
-        link: '/more/',   //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        items: [
-          { text: '提示', link: '/pages/4c4927/' },
-        ],
+        link: '/more/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        items: [{ text: '提示', link: '/pages/4c4927/' }],
       },
       {
         text: '关于',
-        link: '/about/',   //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: '/about/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         // items: [
         //   { text: '文档', link: '/pages/77cec8/' },
         // ],
-      }
+      },
     ],
   },
   // 插件配置
@@ -213,8 +211,7 @@ module.exports = {
           id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', //  页面的唯一标识,长度不能超过50
           title: '「评论」<%- frontmatter.title %>', // GitHub issue 的标题
           labels: ['Gitalk', 'Comment'], // GitHub issue 的标签
-          body:
-            '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
+          body: '页面：<%- window.location.origin + (frontmatter.to.path || window.location.pathname) %>', // GitHub issue 的内容
         },
       },
     ],
@@ -227,5 +224,5 @@ module.exports = {
         },
       },
     ],
-  ]
+  ],
 }
