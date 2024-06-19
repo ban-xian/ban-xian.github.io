@@ -84,14 +84,30 @@ module.exports = {
       {
         text: '前端',
         link: '/web/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        items: [{ text: '前端基础', link: '/pages/570ec7/' }],
+        items: [{ text: 'JavaScript', items: [{ text: 'JavaScript基础', link: '/pages/basic/' }] }],
       },
       {
         text: '页面',
         link: '/ui/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
-          { text: 'html', link: '/pages/80dd0e/' },
-          { text: 'css', link: '/pages/c462de/' },
+          {
+            text: 'Html',
+            items: [
+              {
+                text: 'Html标签介绍',
+                link: '/pages/label/',
+              },
+            ],
+          },
+          {
+            text: 'Css',
+            items: [
+              {
+                text: 'elementui打包后字体图乱码解决方法',
+                link: '/pages/c462de/',
+              },
+            ],
+          },
         ],
       },
       {
