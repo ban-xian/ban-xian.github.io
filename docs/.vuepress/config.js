@@ -114,6 +114,15 @@ module.exports = {
         //   { text: '文档', link: '/pages/77cec8/' },
         // ],
       },
+      {
+        text: '索引',
+        link: '/archives/',
+        items: [
+          { text: '分类', link: '/categories/' },
+          { text: '标签', link: '/tags/' },
+          { text: '归档', link: '/archives/' },
+        ],
+      },
     ],
   },
   // 插件配置
