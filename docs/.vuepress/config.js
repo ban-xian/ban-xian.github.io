@@ -83,12 +83,12 @@ module.exports = {
       // 有二级导航时
       {
         text: '前端',
-        link: '/pages/5b6606/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: '/web/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [{ text: '前端基础', link: '/pages/570ec7/' }],
       },
       {
         text: '页面',
-        link: '/pages/3502c9/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: '/ui/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           { text: 'html', link: '/pages/80dd0e/' },
           { text: 'css', link: '/pages/c462de/' },
@@ -96,7 +96,7 @@ module.exports = {
       },
       {
         text: '技术',
-        link: '/pages/229bb9/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        link: '/technology/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
           { text: '如何只展示当前地图视区的定位mark', link: '/pages/map/' },
           { text: 'npm私有仓库搭建', link: '/pages/npm/' },
