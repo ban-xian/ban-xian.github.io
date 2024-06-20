@@ -121,7 +121,7 @@ module.exports = {
       {
         text: '更多',
         link: '/more/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        items: [{ text: '提示', link: '/pages/4c4927/' }],
+        items: [{ text: '植物大战僵尸杂交版v2.1安装教程', link: '/pages/5e0318/' }],
       },
       {
         text: '关于',
