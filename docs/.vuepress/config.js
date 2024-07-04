@@ -84,7 +84,12 @@ module.exports = {
       {
         text: '前端',
         link: '/web/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        items: [{ text: 'JavaScript', items: [{ text: 'JavaScript基础', link: '/pages/basic/' }] }],
+        items: [
+          {
+            text: 'JavaScript',
+            items: [{ text: '项目常用的JavaScript代码片段', link: '/pages/basic/' }],
+          },
+        ],
       },
       {
         text: '页面',
