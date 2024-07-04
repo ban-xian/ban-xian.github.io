@@ -131,9 +131,10 @@ module.exports = {
       {
         text: '关于',
         link: '/about/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
-        // items: [
-        //   { text: '文档', link: '/pages/77cec8/' },
-        // ],
+      },
+      {
+        text: '资源',
+        link: '/resource/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
       },
       {
         text: '索引',
