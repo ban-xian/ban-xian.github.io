@@ -116,6 +116,11 @@ module.exports = {
         ],
       },
       {
+        text: 'AI',
+        link: '/ai/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+        items: [{ text: '龙虾（OpenClaw）搭建指南', link: '/pages/4416f0/' }],
+      },
+      {
         text: '技术',
         link: '/technology/', //目录页， vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
         items: [
